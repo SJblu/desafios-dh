@@ -158,7 +158,7 @@ main > div > p {
 }
 
 .legendarie-stats > div {
-    margin: 10px 40px 0 0;
+    margin: 20px 40px 0 0;
 }
 
 .progress-bar {
@@ -172,6 +172,42 @@ main > div > p {
     background: #F5DB13;
     border-radius: 25px;
 }
+
+.legendaries-carousel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    
+}
+
+.carousel-legendarie-box {
+    width: 127px;
+    margin: 0 25px;
+    border-radius: 15px;
+    background: #FDEA93;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-legendarie-box > img {
+    width: 172px;
+    height: 148px;
+    float: left;
+    padding-right: 100px;   
+}
+
+.carousel-legendarie-box > div {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    font-weight: 400;
+    border-radius: 15px;
+    height: 52px;
+    align-items: center;
+    padding: 0 8px;
+}
+
 
 
 
