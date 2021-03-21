@@ -108,13 +108,14 @@ main > div > p {
 .main-legendaries {
     background: #212121;
     color: white;
+    padding: 0 10vw;
     
     display: flex;
     flex-direction: column;
 }
 
 .main-legendaries > h1 {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: normal;
     letter-spacing: 4px;
 
@@ -125,11 +126,51 @@ main > div > p {
 }
 
 .legendarie-details {
-    padding: 50px;
+    height: 426px;
+    padding: 50px 40px 50px 0;
     border-top: 2px solid white;
 
     display: flex;
     flex-direction: row;
+}
+
+.legendarie-details > div {
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+}
+
+.legendarie-details > div > h2 {
+    font-size: 3.5rem;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.legendarie-details > div > p {
+    margin-bottom: 20px;
+}
+
+.legendarie-stats {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.legendarie-stats > div {
+    margin: 10px 40px 0 0;
+}
+
+.progress-bar {
+    border-radius: 25px;
+    background: white;
+}
+
+.progress-bar > div {
+    height: 7px;
+    width: 80%;
+    background: #F5DB13;
+    border-radius: 25px;
 }
 
 
