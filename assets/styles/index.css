@@ -187,7 +187,13 @@ main > div > p {
     background: #FDEA93;
     display: flex;
     flex-direction: column;
+    opacity: 0.5;
 }
+
+.first {
+    opacity: 1;
+}
+
 
 .carousel-legendarie-box > img {
     width: 172px;
