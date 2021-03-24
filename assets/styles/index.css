@@ -198,8 +198,8 @@ main > div > p {
 .carousel-legendarie-box > img {
     width: 172px;
     height: 148px;
-    float: left;
-    /* padding-right: 10px;    */
+    position: relative;
+    left: -15px;
 }
 
 .carousel-legendarie-box > div {
