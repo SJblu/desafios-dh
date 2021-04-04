@@ -8,4 +8,4 @@ Cada desafio concluído está uma Branch do repositório. Abaixo lista de cada:
 
 - pokedex-ejs
 >Tornar elementos da pagina dinamico com EJS.<br>
->Entrega 05/04  
+>Entrega 05/04
