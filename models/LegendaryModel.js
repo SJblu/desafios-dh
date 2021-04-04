@@ -1,4 +1,4 @@
-function LegendaryModel(id, name, description, type, healthPoints, specialAttack, defense, attack, experience, specialDefense) {
+function LegendaryModel(id, name, description, type, healthPoints, specialAttack, defense, attack, experience, specialDefense, picture) {
     this.id = id;
     this.name = name;
     this.description = description;
@@ -9,6 +9,7 @@ function LegendaryModel(id, name, description, type, healthPoints, specialAttack
     this.attack = attack;
     this.experience = experience;
     this.specialDefense = specialDefense;    
+    this.picture = picture;
 }
 
 module.exports = LegendaryModel;
